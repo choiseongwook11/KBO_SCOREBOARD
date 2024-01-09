@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'KBO-Dia-Gothic_bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+a {
+    all: unset;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+    text-decoration: none;
+}
+
+
+.all {
+    font-family: 'KBO-Dia-Gothic_bold', sans-serif;
+}
+
+/* header */
+.main {
+    background-color: rgb(232, 232, 232);
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 30px;
+}
+
+.sub_main {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    top: 30px;
+    left: 0;
+    position: fixed;
+    height: 60px;
+    border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+.top_text-box {
+    width: 89%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top_text_ser {
+    font-size: 14px;
+}
+
+input:focus,
+input:active {
+    outline: none;
+    border: 1px solid #5c5c5c;
+}
+
+.top_text {
+    color: rgb(180, 180, 180);
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.7s;
+}
+
+.text-box {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text {
+    color: darkblue;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.text:hover {
+    transform: translate(0, -0.9px);
+}
+
+.text_2 {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.text_2:hover {
+    color: rgb(145, 145, 145);
+}
+
+/* section */
+
+.text-container {
+    height: 490px;
+    margin-top: 95px;
+    z-index: 1;
+}
+
+.text_kbo {
+
+}
+/* 구단정보 */
+
+.team-containar {
+    background-color:#f3f4f8;
+    width: 100%;
+    position:relative;
+}
+
+.team-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.team-list li {
+    margin: 10px 1%;
+}
+
+.lg {
+    cursor: pointer;
+}
+
+.kt {
+    cursor: pointer;
+}
+
+.ssg {
+    cursor: pointer;
+}
+
+.nc {
+    cursor: pointer;
+}
+
+.doosan {
+    cursor: pointer;
+}
+
+.kia {
+    cursor: pointer;
+}
+
+.lotte {
+    cursor: pointer;
+}
+
+.samsung {
+    cursor: pointer;
+}
+
+.hanwha {
+    cursor: pointer;
+}
+
+.kioom {
+    cursor: pointer;
+}
+
+/* 반응형 */
+@media screen and (min-width:3000px) {
+    .all {
+        max-width: 1920px;
+    }
+}
+
+@media screen and (max-width:1173px) {
+    .center {
+        display: none;
+    }
+}
